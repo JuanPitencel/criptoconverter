@@ -25,7 +25,7 @@ const Divisas = () => {
     const [latestTimestamp, setLatestTimestamp] = useState('');
 
     useEffect(() => {
-        const ws = new WebSocket('ws://stream.tradingeconomics.com/?client=guest:guest');
+        const ws = new WebSocket('wss://stream.tradingeconomics.com/?client=guest:guest');
     
         ws.onopen = () => {
           ws.send('{"topic": "subscribe", "to": "EURUSD:CUR"}');
