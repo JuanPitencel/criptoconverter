@@ -27,7 +27,7 @@
   @media screen and (max-width: 768px) {
     font-size: 14px;
 }
-
+}
 .news-item.active {
   background-color: #ddd;
 }
