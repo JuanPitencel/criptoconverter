@@ -1,3 +1,16 @@
+Crypto quote in real time.
+Latest industry news.
+React js project, to test the tools:
+FetchAPI
+Axios
+websocket
+hooks
+Styled Components
+Responsive design.
+Deployment (Vercel)
+
+criptoconverter.vercel.app
+
 <<<<<<< HEAD
 # Getting Started with Create React App
 
